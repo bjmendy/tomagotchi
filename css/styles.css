@@ -1,0 +1,45 @@
+.toma {
+	display: inline-block;
+}
+
+body {
+	font-family: Impact, Sans-Serif;
+	color: red;
+	text-shadow: 1px 1px black;
+	outline-color: black;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+h2 {
+	display: inline;
+}
+
+.btn {
+  background: #d4d4d4;
+  background-image: -webkit-linear-gradient(top, #d4d4d4, #4eb82b);
+  background-image: -moz-linear-gradient(top, #d4d4d4, #4eb82b);
+  background-image: -ms-linear-gradient(top, #d4d4d4, #4eb82b);
+  background-image: -o-linear-gradient(top, #d4d4d4, #4eb82b);
+  background-image: linear-gradient(to bottom, #d4d4d4, #4eb82b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffdeff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3cd6;
+  background-image: -webkit-linear-gradient(top, #fc3cd6, #3498db);
+  background-image: -moz-linear-gradient(top, #fc3cd6, #3498db);
+  background-image: -ms-linear-gradient(top, #fc3cd6, #3498db);
+  background-image: -o-linear-gradient(top, #fc3cd6, #3498db);
+  background-image: linear-gradient(to bottom, #fc3cd6, #3498db);
+  text-decoration: none;
+}
